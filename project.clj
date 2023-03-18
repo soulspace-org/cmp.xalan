@@ -9,9 +9,7 @@
   :middleware [lein-tools-deps.plugin/resolve-dependencies-with-deps-edn]
   :lein-tools-deps/config {:config-files [:install :user :project]}
 
-;  :dependencies [[org.clojure/clojure "1.10.1"]
-;                 [xalan/xalan "2.7.1"] ; TODO check version
-;                 [xalan/serializer "2.7.1"]] ; TODO check version, check transitive]
-
-  :test-paths ["test"])
+  :test-paths ["test"]
+  :scm {:name "git" :url "https://github.com/soulspace-org/cmp.xalan"}
+  :deploy-repositories [["clojars"  {:sign-releases false :url "https://clojars.org/repo"}]])
 
