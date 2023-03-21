@@ -1,4 +1,4 @@
-(defproject org.soulspace.clj/cmp.xalan "0.3.0"
+(defproject org.soulspace.clj/cmp.xalan "0.3.1"
   :description "Clojure Xalan component for performing XSL transformations."
   :url "https://github.com/lsolbach/CljComponents"
   :license {:name "Eclipse Public License"

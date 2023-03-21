@@ -1,3 +1,4 @@
 {:deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        commons-net/commons-net {:mvn/version "3.4"}
+        xalan/xalan {:mvn/version "2.7.2"}
+        xalan/serializer {:mvn/version "2.7.2"}
         org.soulspace.clj/clj.java {:mvn/version "0.8.0"}}}
